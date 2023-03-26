@@ -23,7 +23,7 @@ Now when we run the application and visit http://localhost:8000/, we'll see the 
 It would be a bit tedious to write HTML in Python strings, so we're going to use a templating framework to render our HTML.
 We're going to use the `jinja2` package to do this.
 
-```bash
+```shell
 poetry add jinja2
 ```
 
@@ -48,13 +48,13 @@ Overall, `Jinja2` is a powerful tool that makes it easy for developers to build 
 
 Create a `templates` directory to contain the `HTML` templates for the application.
 
-```bash
+```shell
 mkdir templates
 ```
 
 Then create a [`base.html`](templates/base.html) file to contain the metadata for the `HTML` pages that won't change from page to page.
 
-```bash
+```shell
 touch templates/base.html
 ```
 
@@ -76,7 +76,7 @@ This is what the `base.html` file should look like:
 
 Then create a [`index.html`](templates/index.html) file to hold the content for the splashpage.
 
-```bash
+```shell
 touch templates/index.html
 ```
 
@@ -95,7 +95,7 @@ This is what the `index.html` file should look like:
 We need to tell `FastAPI` where to find the templates.
 We'll create a [`settings.py`](api/settings.py) file to hold the settings for the application:
 
-```bash
+```shell
 touch api/settings.py
 ```
 
@@ -138,7 +138,7 @@ async def splashpage(request: Request):
 
 We can run the application by running the following command:
 
-```bash
+```shell
 poetry run uvicorn api.main:app --reload --port 8000
 ```
 

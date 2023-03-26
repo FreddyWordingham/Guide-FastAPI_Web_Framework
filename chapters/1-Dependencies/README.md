@@ -4,13 +4,13 @@
 
 As we published our Mandelbrot package to PyPI, we can now install it using Poetry:
 
-```bash
+```shell
 poetry add mandybrot
 ```
 
 Alternatively, we could have installed it from a local directory:
 
-```bash
+```shell
 poetry add mandybrot@../path/to/the/package
 ```
 
@@ -42,7 +42,7 @@ async def sample_point(real: float, imag: float):
 
 Make sure the application is running:
 
-```bash
+```shell
 poetry run uvicorn api.main:app --reload --port 8000
 ```
 

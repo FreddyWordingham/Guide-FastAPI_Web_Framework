@@ -4,7 +4,7 @@
 
 Create a new Poetry project:
 
-```bash
+```shell
 poetry init
 ```
 
@@ -27,7 +27,7 @@ Python projects use a lot of files that we don't want to commit to Git, so we ca
 
 I'm going to pull the code from https://www.toptal.com/developers/gitignore/api/python into a `.gitignore` file using the `curl` command:
 
-```bash
+```shell
 curl -L https://www.toptal.com/developers/gitignore/api/python > .gitignore
 ```
 
@@ -38,7 +38,7 @@ Alternatively, you can go to [gitignore.io](https://gitignore.io/) and generate 
 We're going to need a few dependencies to get started.
 `FastAPI` is the framework we're going to use to build the application, and `uvicorn` is a web server that we'll use to run the application.
 
-```bash
+```shell
 poetry add fastapi
 poetry add uvicorn
 ```
@@ -47,13 +47,13 @@ poetry add uvicorn
 
 Create an `api` directory to contain the code for the `FastAPI` application.
 
-```bash
+```shell
 mkdir api
 ```
 
 Then create a [`main.py`](./api/main.py) file to contain the code for the application.
 
-```bash
+```shell
 touch api/main.py
 ```
 
@@ -91,7 +91,7 @@ Asynchronous functions can be run in parallel and can be used to improve the per
 
 We can run the application by running the following command:
 
-```bash
+```shell
 poetry run uvicorn api.main:app --reload --port 8000
 ```
 
