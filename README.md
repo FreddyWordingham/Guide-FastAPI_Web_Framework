@@ -12,3 +12,4 @@ How to build a FastAPI HTTP web application.
 -   [1 Dependencies](./chapters/1-Dependencies/README.md)
 -   [2 HTML](./chapters/2-HTML/README.md)
 -   [3 CSS](./chapters/3-CSS/README.md)
+-   [4 JavaScript](./chapters/4-JavaScript/README.md)
