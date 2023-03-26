@@ -1,0 +1,11 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /* align horizontally */
+    align-items: end; /* align vertically */
+    height: 100vh;
+}

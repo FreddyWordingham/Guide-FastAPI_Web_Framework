@@ -13,3 +13,4 @@ How to build a FastAPI HTTP web application.
 -   [2 HTML](./chapters/2-HTML/README.md)
 -   [3 CSS](./chapters/3-CSS/README.md)
 -   [4 JavaScript](./chapters/4-JavaScript/README.md)
+-   [5 Plot](./chapters/5-Plot/README.md)

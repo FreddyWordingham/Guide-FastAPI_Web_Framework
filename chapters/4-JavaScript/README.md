@@ -57,11 +57,11 @@ function sample() {
 
 This function will get the values from the inputs, and then redirect the browser to a page showing the result of the API call.
 
-## Try it out
+## Try it
 
 Run the app:
 
-```bash
+```shell
 poetry run uvicorn app.main:app --reload --port 8000
 ```
 
